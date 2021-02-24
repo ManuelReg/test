@@ -17,6 +17,6 @@ git clone https://github.com/marianotexdinamo/test.git
 ```
 * Luego se deberá crear una rama con el nombre de la persona a realizar el test.
 ```bash
-git branch -b tunombre
+git checkout -b tunombre
 ```
 * Una vez realizada la actividad vamos a realizar un push sobre la rama creda
