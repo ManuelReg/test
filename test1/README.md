@@ -8,6 +8,7 @@ Maquetar el siguiente elemento con html y css para lograr replicar la funcionali
 
 ## Materiales
 Demo de funcionalidad del elemento en el siguiente link [https://www.texdinamo.com/clientes/aplatam/](https://www.texdinamo.com/clientes/aplatam/)
+Documentación de librería Gsap [https://greensock.com/scrolltrigger/](https://greensock.com/scrolltrigger/)
 
 ## Presentación del test
 A continuación detallamos como deberá ser entregada la actividad.
@@ -20,3 +21,13 @@ git clone https://github.com/marianotexdinamo/test.git
 git checkout -b tunombre
 ```
 * Una vez realizada la actividad vamos a realizar un push sobre la rama creda
+```bash
+git add .
+```
+```bash
+git commit -m "tunombre"
+```
+```bash
+git push --set-upstream origin nombredeturama
+```
+
