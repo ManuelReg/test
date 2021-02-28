@@ -1,3 +1,122 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+section.superior,
+section.inferior {
+  height: 50vh;
+  background-color: green;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.affix {
+  background: #234cc4;
+  height: 100vh;
+}
+section.affix .contents {
+  z-index: 5;
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+section.affix .contents article h2,
+section.affix .contents article .texts {
+  width: 100vw;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  position: absolute;
+  transform: translateY(0%);
+  opacity: 0;
+  padding: 18vh 0 0 7vw;
+}
+@media (min-width: 600px) {
+  section.affix .contents article h2,
+  section.affix .contents article .texts {
+    padding: 0;
+    width: 75vw;
+    padding-left: 23vw;
+  }
+}
+section.affix .contents article .texts {
+  padding-top: 25vh;
+  max-width: 80vw;
+}
+@media (min-width: 600px) {
+  section.affix .contents article .texts {
+    max-width: 70vw;
+    width: 700px;
+  }
+}
+section.affix .contents article h2 {
+  font-size: 42px;
+  color: #fff;
+  line-height: 1;
+  margin: 0;
+  margin-left: 0;
+}
+@media (min-width: 600px) {
+  section.affix .contents article h2 {
+    font-size: 8.2vw;
+    margin-left: -12vw;
+    padding-top: 3vw;
+  }
+}
+@media (min-width: 1090px) {
+  section.affix .contents article h2 {
+    font-size: 105px;
+    margin-left: -12vw;
+    padding-top: 3vw;
+  }
+}
+section.affix .contents article p {
+  color: #fff;
+  font-size: 16px;
+}
+@media (min-width: 600px) {
+  section.affix .contents article p {
+    font-size: 23px;
+  }
+}
+section.affix .contents article a.btn {
+  background: #06ccfb;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 19px;
+  border-radius: 100px;
+  margin-top: 7px;
+  float: left;
+}
+section.affix .images {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+section.affix .images .img {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  background-position: center;
+  background-size: auto 100vh;
+  right: 0;
+  top: 0;
+}
+@media (min-width: 600px) {
+  section.affix .images .img {
+    width: 80%;
+  }
+}
+@media (min-width: 1050px) {
+  section.affix .images .img {
+    background-size: 100vw auto;
+  }
 }
